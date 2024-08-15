@@ -22,8 +22,8 @@ namespace fa_ateaT1TimeTrigger_dev_001
         public static async Task Run([TimerTrigger("0 * * * * *")] TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"Function1 - C# Timer trigger function executed at: {DateTime.Now}");
-
-            string apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=1bfedde2b12b74b0ea1c1ed6ea4b2048";
+//Add api key
+            string apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=London&appid=";
             HttpResponseMessage apiResult = await client.GetAsync(apiUrl);
             string status = apiResult.IsSuccessStatusCode ? "Success" : "Failure";
             log.LogInformation($"API call status: {status}");
