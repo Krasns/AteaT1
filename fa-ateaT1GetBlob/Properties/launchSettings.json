@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fa_ateaT1GetBlob": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7099",
+      "launchBrowser": false
+    }
+  }
+}

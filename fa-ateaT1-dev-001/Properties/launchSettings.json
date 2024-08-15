@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fa_ateaT1_dev_001": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7129",
+      "launchBrowser": false
+    }
+  }
+}
